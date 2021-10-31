@@ -2,6 +2,8 @@
 
 A simple example using NextJS 12, typescript and ava without unnecessary transpilation.
 
+> This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 ## Features
 
 - Write ava tests in typescript
@@ -18,7 +20,9 @@ A simple example using NextJS 12, typescript and ava without unnecessary transpi
 - `start` - Run the NextJS production build
 - `test` - Run ava tests
 
-> This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Useful Commands
+
+- **Run individual test file** - `yarn run ava ./tests/ava.test.ts`
 
 ## Getting Started
 
