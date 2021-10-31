@@ -1,4 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS, Typescript, Ava Example
+
+A simple example using NextJS 12, typescript and ava without unnecessary transpilation.
+
+## Features
+
+- Write ava tests in typescript
+- Test against NextJS API endpoints or pages
+- No compile directory (`dist`/`build`) to worry about in development
+- Full NextJS middleware support in tests
+- Tests can run in isolation in parallel
+- Automatic/simple server teardown
+
+## Scripts
+
+- `dev` - Run the NextJS development server
+- `build` - Build the NextJS static application
+- `start` - Run the NextJS production build
+- `test` - Run ava tests
+
+> This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
