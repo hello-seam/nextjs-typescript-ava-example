@@ -1,0 +1,32 @@
+{
+  "name": "sample-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "next": "^12.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@ava/typescript": "^2.0.0",
+    "@types/react": "^17.0.33",
+    "ava": "^3.15.0",
+    "esbuild": "^0.13.11",
+    "esbuild-runner": "^2.2.1",
+    "eslint": "8.1.0",
+    "eslint-config-next": "11.1.2",
+    "esm": "^3.2.25",
+    "get-port": "5",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}
