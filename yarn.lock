@@ -4459,6 +4459,13 @@ next@^12.0.1:
     "@next/swc-win32-ia32-msvc" "12.0.1"
     "@next/swc-win32-x64-msvc" "12.0.1"
 
+nextjs-ava-fixture@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/nextjs-ava-fixture/-/nextjs-ava-fixture-1.0.0.tgz#3c64f95382d2f19baa0d69af2777e83c5cf8f082"
+  integrity sha512-gz8qhlV9P8MSetM9Ut09ok3eRWNYmgmHfXUkmxvtB0l/vltDnjJ7u/CYS6b2uHRShS69iU4FEH8or8bZmFJwfw==
+  dependencies:
+    axios "^0.24.0"
+
 node-fetch@2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"

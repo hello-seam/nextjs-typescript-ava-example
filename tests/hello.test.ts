@@ -1,5 +1,5 @@
 import test from "ava"
-import fixture from "../nextjs-fixture"
+import fixture from "nextjs-ava-fixture"
 
 test("api endpoint", async (t) => {
   const { axios } = await fixture(t)
