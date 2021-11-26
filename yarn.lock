@@ -4464,10 +4464,10 @@ next@^12.0.1:
     "@next/swc-win32-ia32-msvc" "12.0.1"
     "@next/swc-win32-x64-msvc" "12.0.1"
 
-nextjs-ava-fixture@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/nextjs-ava-fixture/-/nextjs-ava-fixture-1.1.0.tgz#5ea59ed31ae621b48f17e7d63a9c616eab8c58c2"
-  integrity sha512-HRbf9woXiIADcRksrDlw7aQBj2Jh3cEycmUfa4okckaGbXWBJ08YHbgPw4gz5pGrZqJ63ojb+XdumvznpU7XRQ==
+nextjs-ava-fixture@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/nextjs-ava-fixture/-/nextjs-ava-fixture-1.1.1.tgz#6825ba39b31d875f847429200651818ab1020b95"
+  integrity sha512-1YrggmPqS+niqSIhw6BVsbUmxClN7vEvy5bIjgEoqzI9wdDxt+xyqDgcdbbUTF0Vtr32i9+r/XlmHwBengDqbw==
   dependencies:
     "@seamapi/wrappers" "^1.0.1"
     axios "^0.24.0"
