@@ -739,6 +739,11 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.0.9.tgz#1168db664faab4c3bb82c76124b393970e80bf89"
   integrity sha512-yk9Xj/3bUxyz3azMXW8qigLqXWEr2R0h9G7PVnnmjNQdlZLN+aESqCTnVN7ubtYUIQfW32/v8+AXsbpL1ryI1A==
 
+"@seamapi/wrappers@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@seamapi/wrappers/-/wrappers-1.0.1.tgz#f51ffeb568aedf2bf389938f0d12b0c535b682b3"
+  integrity sha512-VGvLIxl8NW6BhMm5MUFNjV8MePbNr+gpZvzYu/wn69TEk/m9HbvY01olCZ1lgv8eT+4zoEg4mq77Pdjl4+K4CQ==
+
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
@@ -4459,11 +4464,12 @@ next@^12.0.1:
     "@next/swc-win32-ia32-msvc" "12.0.1"
     "@next/swc-win32-x64-msvc" "12.0.1"
 
-nextjs-ava-fixture@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/nextjs-ava-fixture/-/nextjs-ava-fixture-1.0.0.tgz#3c64f95382d2f19baa0d69af2777e83c5cf8f082"
-  integrity sha512-gz8qhlV9P8MSetM9Ut09ok3eRWNYmgmHfXUkmxvtB0l/vltDnjJ7u/CYS6b2uHRShS69iU4FEH8or8bZmFJwfw==
+nextjs-ava-fixture@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/nextjs-ava-fixture/-/nextjs-ava-fixture-1.1.0.tgz#5ea59ed31ae621b48f17e7d63a9c616eab8c58c2"
+  integrity sha512-HRbf9woXiIADcRksrDlw7aQBj2Jh3cEycmUfa4okckaGbXWBJ08YHbgPw4gz5pGrZqJ63ojb+XdumvznpU7XRQ==
   dependencies:
+    "@seamapi/wrappers" "^1.0.1"
     axios "^0.24.0"
 
 node-fetch@2.6.1:
